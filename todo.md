@@ -1,6 +1,5 @@
-# Personal identity pass
+# GitHub update
 
-- [x] Replace public-facing Shocking references with Mitra Kulal personal portfolio identity.
-- [x] Update the side rails, first-visit intro, and case-file labels to reinforce authorship.
-- [x] Preserve the high-impact editorial visual language without a separate studio brand.
-- [x] Validate the rebrand; save the updated checkpoint next.
+- [ ] Confirm the GitHub remote and pending portfolio changes.
+- [ ] Commit and push the latest updates to `main`.
+- [ ] Verify the remote commit and repository state.
