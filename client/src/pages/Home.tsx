@@ -11,7 +11,7 @@ const projects = [
     id: "01",
     title: "mattrlabs / RAG",
     type: "Production system · 2026",
-    image: "/manus-storage/project-01-kinetic_9a8ad94f.jpg",
+    image: "/manus-storage/rag-assistant_e3b0dbde.jpg",
     note: "A source-attributed knowledge assistant for an AI hardware studio.",
     tag: "LIVE CONTENT → GROUNDED ANSWERS",
     stack: ["LangChain", "ChromaDB", "FastAPI", "Cloudflare Tunnel"],
@@ -22,7 +22,7 @@ const projects = [
     id: "02",
     title: "Trip Planner / Agents",
     type: "Multi-agent system · 2026",
-    image: "/manus-storage/project-02-signal_c05de8fd.jpg",
+    image: "/manus-storage/agent-orchestration_d8c9458f.jpg",
     note: "A supervisor coordinating four specialist agents through LangGraph.",
     tag: "SUPERVISOR → TRAVEL · WEATHER · FOOD · BUDGET",
     stack: ["LangGraph", "MCP", "Ollama", "DuckDuckGo"],
@@ -67,7 +67,7 @@ export default function Home() {
             <p className="hero-intro">I’m Mitra, an AI/ML engineer building grounded RAG pipelines, multi-agent systems, and local-first AI applications that turn messy information into useful decisions.</p>
             <button className="text-cta" onClick={() => scrollTo("work")}>Open the case files <ArrowDownRight size={20} /></button>
           </div>
-          <div className="hero-art" aria-hidden="true"><img src="/manus-storage/portfolio-hero_abcfbf56.jpg" alt="" /><div className="hero-art-label">FIG. 00 / SYSTEMS IN MOTION</div></div>
+          <div className="hero-art" aria-hidden="true"><img src="/manus-storage/ai-systems-hero_320b2b64.jpg" alt="" /><div className="hero-art-label">FIG. 00 / SYSTEMS IN MOTION</div></div>
           <div className="hero-index">[ 00 — 04 ]</div>
         </section>
 
