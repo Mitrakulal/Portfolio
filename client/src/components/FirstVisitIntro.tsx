@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./FirstVisitIntro.css";
 
-const INTRO_KEY = "shocking-ai-systems-intro-seen";
+const INTRO_KEY = "mitra-kulal-portfolio-intro-seen";
 
 export default function FirstVisitIntro() {
   const [visible, setVisible] = useState(() => {
@@ -31,8 +31,8 @@ export default function FirstVisitIntro() {
   if (!visible) return null;
 
   return (
-    <div className={`first-visit-intro ${resolving ? "is-resolving" : ""}`} role="status" aria-live="polite" aria-label="Opening Shocking AI Systems portfolio">
-      <div className="intro-index">SHOCKING / 00</div>
+    <div className={`first-visit-intro ${resolving ? "is-resolving" : ""}`} role="status" aria-live="polite" aria-label="Opening Mitra Kulal's AI and machine learning portfolio">
+      <div className="intro-index">MITRA KULAL / 00</div>
       <div className="intro-core">
         <div className="intro-mark"><img src="/manus-storage/shocking-mark_c8e9ac58.png" alt="" /></div>
         <p>AI SYSTEMS / INITIALIZING</p>

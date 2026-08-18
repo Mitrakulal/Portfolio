@@ -47,9 +47,9 @@ export default function Home() {
   return (
     <main className="portfolio-shell">
       <aside className="side-rail" aria-label="Portfolio navigation">
-        <a className="stamp" href="#top" aria-label="Shocking home"><img src="/manus-storage/shocking-mark_c8e9ac58.png" alt="" /></a>
+        <a className="stamp" href="#top" aria-label="Mitra Kulal portfolio home"><img src="/manus-storage/shocking-mark_c8e9ac58.png" alt="Mitra Kulal personal mark" /></a>
         <div className="rail-line" />
-        <span className="rail-copy">SHOCKING / AI SYSTEMS</span>
+        <span className="rail-copy">MITRA KULAL / AI SYSTEMS</span>
         <nav className="rail-nav">
           <button onClick={() => scrollTo("work")}>01 — Work</button>
           <button onClick={() => scrollTo("stack")}>02 — Stack</button>
