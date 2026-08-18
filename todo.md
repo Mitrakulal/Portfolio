@@ -1,5 +1,8 @@
-# GitHub publishing
+# Technical portfolio expansion
 
-- [x] Verify the provided empty repository `Mitrakulal/Portfolio`.
-- [ ] Push the current Shocking portfolio source and assets to the repository.
-- [ ] Confirm the repository contents and default branch.
+- [x] Add a downloadable résumé link and recruiter-facing availability cue.
+- [x] Expand the selected work into three case files, including Face Recognition.
+- [x] Build dedicated technical case-study routes with system details and verified evidence.
+- [x] Add architecture diagrams and engineering-principle sections.
+- [x] Add direct GitHub proof and safe walkthrough states for relevant projects.
+- [x] Validate responsive behavior and build integrity; save the completed checkpoint next.
