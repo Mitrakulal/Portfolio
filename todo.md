@@ -1,6 +1,6 @@
-# Motion and interaction pass
+# First-visit intro
 
-- [x] Add accessible in-view reveal behavior to selected portfolio sections.
-- [x] Add richer project-card hover, focus, and press feedback.
-- [x] Respect reduced-motion preferences and preserve keyboard usability.
-- [x] Validate the responsive interaction treatment; save the updated checkpoint next.
+- [x] Add a concise spark-mark loading overlay for first visits.
+- [x] Persist completion so repeat visitors bypass the animation.
+- [x] Respect reduced-motion preferences and preserve keyboard access.
+- [x] Validate the behavior; save the updated checkpoint next.

@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import CaseStudy from "./pages/CaseStudy";
+import FirstVisitIntro from "@/components/FirstVisitIntro";
 
 
 function Router() {
@@ -33,6 +34,7 @@ function App() {
         // switchable
       >
         <TooltipProvider>
+          <FirstVisitIntro />
           <Toaster />
           <Router />
         </TooltipProvider>
