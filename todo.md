@@ -1,8 +1,6 @@
-# Technical portfolio expansion
+# Motion and interaction pass
 
-- [x] Add a downloadable résumé link and recruiter-facing availability cue.
-- [x] Expand the selected work into three case files, including Face Recognition.
-- [x] Build dedicated technical case-study routes with system details and verified evidence.
-- [x] Add architecture diagrams and engineering-principle sections.
-- [x] Add direct GitHub proof and safe walkthrough states for relevant projects.
-- [x] Validate responsive behavior and build integrity; save the completed checkpoint next.
+- [x] Add accessible in-view reveal behavior to selected portfolio sections.
+- [x] Add richer project-card hover, focus, and press feedback.
+- [x] Respect reduced-motion preferences and preserve keyboard usability.
+- [x] Validate the responsive interaction treatment; save the updated checkpoint next.

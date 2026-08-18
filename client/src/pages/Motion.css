@@ -1,0 +1,25 @@
+/* Electric Editorial motion: sharp entrance rhythm, directional card glow, and compact tactile feedback. */
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal] { opacity:0; transform:translateY(28px); transition:opacity .62s var(--ease-out),transform .62s var(--ease-out); }
+  [data-reveal].is-revealed { opacity:1; transform:translateY(0); }
+  [data-reveal] .signal-grid > div, [data-reveal] .principle-grid article, [data-reveal] .evidence-grid > div, [data-reveal] .decision-grid article { opacity:0; transform:translateY(14px); transition:opacity .46s var(--ease-out),transform .46s var(--ease-out); }
+  [data-reveal].is-revealed .signal-grid > div, [data-reveal].is-revealed .principle-grid article, [data-reveal].is-revealed .evidence-grid > div, [data-reveal].is-revealed .decision-grid article { opacity:1; transform:translateY(0); }
+  [data-reveal].is-revealed .signal-grid > div:nth-child(2), [data-reveal].is-revealed .principle-grid article:nth-child(2), [data-reveal].is-revealed .evidence-grid > div:nth-child(2), [data-reveal].is-revealed .decision-grid article:nth-child(2) { transition-delay:.07s; }
+  [data-reveal].is-revealed .signal-grid > div:nth-child(3), [data-reveal].is-revealed .principle-grid article:nth-child(3), [data-reveal].is-revealed .evidence-grid > div:nth-child(3), [data-reveal].is-revealed .decision-grid article:nth-child(3) { transition-delay:.14s; }
+  [data-reveal].is-revealed .signal-grid > div:nth-child(4), [data-reveal].is-revealed .principle-grid article:nth-child(4), [data-reveal].is-revealed .evidence-grid > div:nth-child(4), [data-reveal].is-revealed .decision-grid article:nth-child(4) { transition-delay:.21s; }
+}
+
+.project-card { --pointer-x:50%; --pointer-y:50%; transition:transform .34s var(--ease-out); }
+.project-card:hover,.project-card:focus-within { transform:translateY(-8px); }
+.project-image-wrap { isolation:isolate; transition:border-color .24s var(--ease-out),box-shadow .24s var(--ease-out); }
+.project-image-wrap::after { content:""; position:absolute; z-index:1; inset:0; opacity:0; pointer-events:none; background:radial-gradient(circle 180px at var(--pointer-x) var(--pointer-y),rgba(215,255,63,.26),transparent 72%); mix-blend-mode:screen; transition:opacity .26s var(--ease-out); }
+.project-card:hover .project-image-wrap,.project-card:focus-within .project-image-wrap { border-color:var(--acid); box-shadow:0 16px 38px rgba(0,0,0,.42); }
+.project-card:hover .project-image-wrap::after,.project-card:focus-within .project-image-wrap::after { opacity:1; }
+.project-card:hover .project-stamp,.project-card:focus-within .project-stamp { transform:rotate(-2deg) translate(6px,-5px); background:var(--acid); color:var(--ink); border-color:var(--acid); }
+.project-card.cobalt:hover .project-stamp,.project-card.cobalt:focus-within .project-stamp { background:#91a5ff; border-color:#91a5ff; }
+.project-card:hover .project-footer h2,.project-card:focus-within .project-footer h2 { color:var(--acid); }
+.project-card:hover .stack-chip-row span,.project-card:focus-within .stack-chip-row span { border-color:rgba(215,255,63,.65); color:var(--paper); }
+.project-image-wrap:focus-visible { outline:2px solid var(--acid); outline-offset:5px; }
+.project-arrow { transition:background .18s var(--ease-out),color .18s var(--ease-out),transform .18s var(--ease-out); }
+.project-card:hover .project-arrow,.project-card:focus-within .project-arrow { transform:rotate(10deg) scale(1.05); }
+@media (hover:none) { .project-card:hover { transform:none; }.project-cursor { display:none; } }
