@@ -1,7 +1,6 @@
-# Visual edit verification
+# GitHub publishing
 
-- [x] Verify the current hero image target and add a cool AI/ML visual treatment if needed.
-- [x] Verify the project image targets and replace them with relevant AI-themed visuals.
-- [x] Wire the generated assets into the current JSX using the exact project asset URLs.
-- [x] Run the build and capture a representative screenshot.
-- [ ] Save a new checkpoint after validation.
+- [ ] Inspect GitHub authentication and repository context.
+- [ ] Create or connect the target repository.
+- [ ] Push the current portfolio source and assets.
+- [ ] Confirm the repository URL and branch.
