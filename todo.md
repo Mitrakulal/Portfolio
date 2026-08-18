@@ -1,6 +1,5 @@
 # GitHub publishing
 
-- [ ] Inspect GitHub authentication and repository context.
-- [ ] Create or connect the target repository.
-- [ ] Push the current portfolio source and assets.
-- [ ] Confirm the repository URL and branch.
+- [x] Verify the provided empty repository `Mitrakulal/Portfolio`.
+- [ ] Push the current Shocking portfolio source and assets to the repository.
+- [ ] Confirm the repository contents and default branch.
